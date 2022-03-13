@@ -19,8 +19,8 @@
                 <div class="col-lg-6">
                     <div class="card mt-5">
                         <div class="card-body">
-                            <p style="text-align: center"><img src="/img/lambang-its.png" alt="Logo ITS" width="100px"></p>
-                            <h3 style="text-align: center; margin-bottom: 10%; font-weight: bold;">Formulir Keterangan Mahasiswa Aktif ITS</h3>
+                            <p style="text-align: center"><img src="/img/lambang-its.png" alt="Logo Polije" width="100px"></p>
+                            <h3 style="text-align: center; margin-bottom: 10%; font-weight: bold;">Perpustakaan</h3>
                             <table class="table table-bordered table-striped" style="font-size: 1.2em">
                                 <tr>
                                     <td style="width:150px">Nama</td>
@@ -50,12 +50,16 @@
                                     <td style="width:150px">IPK</td>
                                     <td>{{ $data->ipk }}</td>
                                 </tr>
+                                {{-- <tr>
+                                    <td style="width:150px">KTM</td>
+                                    <td><img src="{{ $data->ktm }}" alt="" width="200px"></td>
+                                </tr> --}}
                             </table>
-                            <p style="text-align: center"><a href="/main" class="btn btn-primary" style="text-align: center" >Kembali</a></p>
+                            <p style="text-align: center"><a href="/inputan" class="btn btn-primary" style="text-align: center" >Kembali</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </body>
-</html> 
+</html>

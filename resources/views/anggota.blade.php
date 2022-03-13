@@ -7,16 +7,18 @@
             <thead>
                 <tr>
                     <th scope="col">No</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">NIM</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Jenis Kelamin</th>
+                    <th scope="col">Jurusan</th>
                     <th scope="col">Handle</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
+                    <td colspan="4">Larry the Bird</td>
                     <td>@twitter</td>
                     <td>
                         <div class="row">
